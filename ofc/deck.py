@@ -21,5 +21,8 @@ class Deck(object):
 	def pop(self): # pops the top card
                 return self._cards.pop()
 
-        def heap(self, card):
+        def heap(self, card):   # adds card to the top of the deck
                 self._cards.append(card)
+
+        def clear(self):        # clears the deck
+                self._cards = []
