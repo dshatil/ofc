@@ -24,7 +24,7 @@ myPlayer.playCard(myDeck)
 
 while not myPlayer.fullHands():
     myPlayer.printStatus()
-    myPlayer.playCard(myDeck)
+    myPlayer.playManual(myDeck)
 
 print "You are done!"
 
