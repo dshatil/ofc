@@ -87,6 +87,7 @@ class Player(object):
             spaces.append(3)
         if len(spaces) == 0:
             raise OFCError("No empty spaces!")
+            return
         else:
             choice = random.choice(spaces)
             self.addCard(card, choice)

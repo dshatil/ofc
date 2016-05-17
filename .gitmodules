@@ -1,0 +1,3 @@
+[submodule "external/pokereval"]
+	path = external/pokereval
+	url = https://github.com/aliang/pokerhand-eval.git

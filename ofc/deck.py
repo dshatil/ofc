@@ -5,8 +5,8 @@ class Deck(object):
 	
 	def __init__(self): # creates a standard 52-card deck
 		self._cards = []
-		for i in Card.RANKS:
-			for j in Card.SUITS:
+		for i in range(2,15):
+			for j in range(1,5):
 				self._cards.append(Card(i, j))
 				
 	def __len__(self):	# returns number of cards in the deck
